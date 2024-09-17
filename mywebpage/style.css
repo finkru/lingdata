@@ -1,0 +1,85 @@
+:root {
+	--text-color: #292929; 
+	--main-color: #A3C68B;
+	--dark-color: #7FAF5E;
+	--light-color: #C7DCB8; 
+	--main-color-dark: #4D6D36;
+	--dark-color-dark: #3D572B;
+	--light-color-dark: #5C8341; 
+}
+h1 {
+	color: var(--light-color);
+}
+a:link, a:visited {
+	color: var(--light-color);
+}
+html {
+	background-color: var(--main-color);
+	font-size: 20pt;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body {
+  margin: 0;
+}
+nav {
+	background-color: var(--dark-color);
+	position: relative;
+	width: 100%;
+}
+.header {
+  	font-size: 20pt;
+	padding: 5pt;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10pt;
+	align-items: center;
+}
+.menu-button {
+	font-size: 15pt;
+}
+main {
+	align-items: center;
+	padding: 1em;
+	justify-content: end;
+	color: var(--text-color);
+}
+.footer_text {
+	color: var(--light-color)
+}
+.portrait{
+	vertical-align: top;
+	display: flex;
+	text-align: center;
+	width: 640px;
+	float: right;
+	width: 30%;
+	border: thick dotted var(--dark-color);
+	padding: 5pt;
+}
+
+.caption {
+	font-size: 10pt;
+	display: flex;
+}
+.grid_images {
+	align-items: center;
+	display: flex;
+}
+.grid_images img {
+	width: 300px;
+	display: flex;
+	border: thick dotted var(--dark-color);
+	padding: 5pt;
+	margin: 100px;
+}
+footer {
+	text-align: right;
+	display: flex;
+	background-color: var(--dark-color);
+	justify-content: space-between;
+}
